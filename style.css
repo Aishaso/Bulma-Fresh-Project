@@ -1,0 +1,24 @@
+.integrated-icon div:first-child{
+border: solid 1px black;
+width: 50px;
+height: 50px;
+/* line-height: 60px; */
+border-radius: 50%;
+font-size: 2rem;
+margin: 0 auto;
+transition: all 500ms;
+}
+.integrated-icon:hover .icon{
+  transform: translateY(-5px);
+  color: orange;
+  border-color: orange;
+  cursor: pointer;
+}
+.has-background-image{
+  background-image: url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyMzE1OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testemonial-card i{
+font-size: 30px;
+}
